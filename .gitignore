@@ -11,6 +11,7 @@ my_executable_name
 
 # 忽略 CMake 生成的文件夹（如果使用 CMake 构建）
 build/
+install/
 CMakeFiles/
 CMakeCache.txt
 Makefile
