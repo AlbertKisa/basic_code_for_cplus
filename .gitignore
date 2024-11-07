@@ -1,0 +1,20 @@
+# 忽略所有 .o 和 .out 文件（对象文件和可执行文件）
+*.o
+*.out
+
+# 忽略调试信息文件
+*.gch
+*.dSYM/
+
+# 忽略编译生成的可执行文件（根据你的项目名称）
+my_executable_name
+
+# 忽略 CMake 生成的文件夹（如果使用 CMake 构建）
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# 忽略临时文件
+*.tmp
+
